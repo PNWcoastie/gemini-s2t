@@ -1,7 +1,7 @@
 # Gemini Speech-to-Text (`gemini-s2t`)
 
 > **Native 60fps Push-to-Talk AI Voice HUD & Inline Text Transformation Engine**  
-> *Cross-Platform Desktop Client (Linux • macOS • Windows) Powered by Google Gemini Multimodal Audio (`gemini-2.5-flash`)*
+> *Cross-Platform Desktop Client (Linux • macOS • Windows) Powered by Google Gemini Multimodal Audio (`gemini-3.5-flash`)*
 
 <p align="center">
   <img src="assets/hud_animated_demo.webp" alt="Gemini Speech-to-Text Live 60fps HUD Demo" width="560" />
