@@ -1,0 +1,22 @@
+name: Bug Report or Feature Feedback
+description: Submit feedback, bug reports, or feature suggestions for gemini-s2t.
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      options:
+        - Linux (X11 / Wayland)
+        - macOS
+        - Windows 10 / 11
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Description / Feedback
+      placeholder: Describe the behavior, feature idea, or question...
+    validations:
+      required: true

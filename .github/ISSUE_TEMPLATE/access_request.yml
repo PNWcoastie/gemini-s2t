@@ -1,0 +1,35 @@
+name: Request Private Beta Access
+description: Request a collaborator invite to the private gemini-s2t-byok repository or inquire about the project.
+title: "[Access Request]: "
+labels: ["access-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for checking out **Gemini Speech-to-Text (`gemini-s2t`)**! Fill out the quick details below to request an invite to the private repository.
+  - type: dropdown
+    id: os
+    attributes:
+      label: Primary Operating System
+      options:
+        - macOS (Apple Silicon / Intel)
+        - Windows 10 / 11
+        - Linux (Ubuntu / Debian / Fedora / Arch)
+    validations:
+      required: true
+  - type: dropdown
+    id: ide
+    attributes:
+      label: Do you use Google Antigravity 2.0?
+      options:
+        - Yes — I want to use the 1-prompt Antigravity 2.0 setup
+        - No — I plan to run it standalone via Python
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: How do you plan to use gemini-s2t? (Optional)
+      placeholder: e.g., Daily coding/dictation in Antigravity, testing on macOS, reviewing from your resume/portfolio...
+    validations:
+      required: false
