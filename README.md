@@ -17,7 +17,7 @@
 
 **Gemini Speech-to-Text (`gemini-s2t`)** is a lightweight, hardware-accelerated desktop voice HUD and inline text-transformation engine built in Python and PyQt6.
 
-Hold down a global trigger (**Mouse Side Button** `Button 9` / `XButton2` or **Keyboard Hotkey**), speak naturally, and release—your speech is streamed directly to **Google Gemini (`gemini-2.5-flash`)** in a single multimodal audio pass and typed cleanly at your active cursor in milliseconds.
+Hold down a global trigger (**Mouse Side Button** `Button 9` / `XButton2` or **Keyboard Hotkey**), speak naturally, and release—your speech is streamed directly to **Google Gemini (`gemini-2.5/3.5-flash`)** in a single multimodal audio pass and typed cleanly at your active cursor in milliseconds.
 
 > [!IMPORTANT]
 > **Repository Status — Showcase & Invite-Only Private Beta**  
